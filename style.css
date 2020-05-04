@@ -1,0 +1,40 @@
+:root {
+    --base: #f8d34f;
+    --spacing: 20px;
+    --brightness: 20%;
+    --contrast: 20%;
+}
+
+img {
+    width: 500px;
+    height: 500px;
+    padding: var(--spacing);
+    background: var(--base);
+    filter: saturate(var(--saturate)) brightness(var(--brightness));
+}
+
+.highlight {
+    color: var(--base);
+}
+
+body {
+    text-align: center;
+    background: #444;
+    color: #fff;
+    font-family: cursive;
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+
+.controls {
+    margin-bottom: 50px;
+}
+
+a {
+    color: var(--base);
+    text-decoration: none;
+}
+
+input {
+    width: 100px;
+}
